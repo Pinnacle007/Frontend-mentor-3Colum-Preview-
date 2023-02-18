@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: hsl(0, 0%, 95%);
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Big Shoulders Display, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    height:100%;
+    
+
+}
+
+
+.sedans{
+    background: hsl(31, 77%, 52%);
+    padding: 2rem;
+    height: 100%;
+    width: auto;
+}
+
+
+
+.sedan-img{
+    background-image: url(/images/icon-sedans.svg);
+     /* border: 2px solid red;  */
+    width: 5rem;
+    height: 3rem;
+     background-size: cover;
+    
+}
+
+
+.sedans-head{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1.5rem 0;
+}
+
+
+
+
+.sedans-dics{
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+
+
+
+.sedans-btn{
+    margin: 2rem;
+    padding: 1rem;
+    width: 80%;
+    color:hsl(31, 77%, 52%);
+    border-radius: 2rem;
+     border: none;
+}
+
+
+.sedans-btn:active{
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+.suvs{
+    background: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+
+
+.suv-img{
+    background-image: url(/images/icon-suvs.svg);
+    width: 5rem;
+    height: 3rem;
+    background-size: cover;
+}
+
+
+.suv-head {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1.5rem 0;
+}
+
+
+.suv-dics{
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.suv-btn{
+    margin: 2rem;
+    padding: 1rem;
+    width: 80%;
+    color:hsl(184, 100%, 22%);
+    border-radius: 2rem;
+     border: none;
+}
+
+
+.suv-btn:active{
+    background: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+.luxury{
+    background: hsl(179, 100%, 13%);
+    padding: 2rem;
+}
+
+
+
+.lux-img{
+    background-image: url(/images/icon-luxury.svg);
+    width: 5rem;
+    height: 3rem;
+    background-size: cover;
+}
+
+
+.lux-head{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1.5rem 0;
+}
+
+
+.lux-dics{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.lux-btn{
+    margin: 2rem;
+    padding: 1rem;
+    width: 80%;
+    color:hsl(179, 100%, 13%);
+    border-radius: 2rem;
+    border: none;
+}
+
+
+
+.lux-btn:active{
+    background: hwb(179 0% 74%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    
+    .container{
+        display: grid;
+        
+        width: 80vw;
+        height: 60vh;
+
+        align-items: center;
+        justify-content: center;
+     }  
+
+
+     body{
+        margin-bottom: 1rem;
+     }
+}
+

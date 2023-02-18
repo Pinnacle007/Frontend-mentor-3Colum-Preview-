@@ -41,7 +41,7 @@ body{
 
 
 .sedan-img{
-    background-image: url(/images/icon-sedans.svg);
+    background-image: url(./images/icon-sedans.svg);
      /* border: 2px solid red;  */
     width: 5rem;
     height: 3rem;
@@ -90,7 +90,7 @@ body{
 
 
 .suv-img{
-    background-image: url(/images/icon-suvs.svg);
+    background-image: url(./images/icon-suvs.svg);
     width: 5rem;
     height: 3rem;
     background-size: cover;
@@ -139,7 +139,7 @@ body{
 
 
 .lux-img{
-    background-image: url(/images/icon-luxury.svg);
+    background-image: url(./images/icon-luxury.svg);
     width: 5rem;
     height: 3rem;
     background-size: cover;

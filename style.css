@@ -68,7 +68,7 @@ body{
 .sedans-btn{
     margin: 2rem;
     padding: 1rem;
-    width: 75%;
+    width: 80%;
     color:hsl(31, 77%, 52%);
     border-radius: 2rem;
      border: none;
@@ -117,7 +117,7 @@ body{
 .suv-btn{
     margin: 2rem;
     padding: 1rem;
-    width: 70%;
+    width: 80%;
     color:hsl(184, 100%, 22%);
     border-radius: 2rem;
      border: none;
@@ -168,7 +168,7 @@ body{
 .lux-btn{
     margin: 2rem;
     padding: 1rem;
-    width: 70%;
+    width: 80%;
     color:hsl(179, 100%, 13%);
     border-radius: 2rem;
     border: none;

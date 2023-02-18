@@ -91,6 +91,8 @@ body{
 .suvs{
     background: hsl(184, 100%, 22%);
     padding: 2rem;
+    height: 100%;
+    width: auto;
 }
 
 
@@ -139,6 +141,8 @@ body{
 .luxury{
     background: hsl(179, 100%, 13%);
     padding: 2rem;
+    height: 100%;
+    width: auto;
     border-top-right-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
@@ -191,7 +195,7 @@ body{
     
     .container{
         display: grid;
-        
+        margin-bottom: 3rem;
         width: 80vw;
         max-height: 60vh;
 
